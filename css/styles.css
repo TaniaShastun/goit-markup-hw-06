@@ -749,6 +749,25 @@ margin-bottom: 20px;
    
  }
 
+
+
+.portfolio-item:hover .portfolio-thumb::after{
+  opacity: 1;
+  transform: translateY(0%);
+  transition-duration: 250ms ;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
+
+}
+
+
+
+.portfolio-item:hover .portfolio-thumb .portfolio-overlay-text{
+  opacity: 1;
+  transform: translateY(0%);
+  transition-duration: 250ms ;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
  .portfolio-thumb:hover::after{
    opacity: 1;
    transform: translateY(0%);
